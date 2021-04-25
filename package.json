@@ -1,0 +1,21 @@
+{
+    "name": "express-mongodb-crud",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon app/server.js"
+    },
+    "author": "Bashar Arif",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "crypto": "^1.0.1",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.12.5",
+        "nodemon": "^2.0.7",
+        "validator": "^13.6.0"
+    }
+}
